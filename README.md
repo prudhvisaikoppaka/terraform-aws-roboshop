@@ -1,6 +1,6 @@
 # terraform-aws-roboshop
 
-Reusable Terraform module that deploys one RoboShop service as a **self-healing, auto-scaling** group of EC2 instances behind an Application Load Balancer. The same module deploys every service (catalogue, user, cart, shipping, payment and frontend), so adding a service is one more entry in a map.
+#Reusable Terraform module that deploys one RoboShop service as a **self-healing, auto-scaling** group of EC2 instances behind an Application Load Balancer. The same module deploys every service (catalogue, user, cart, shipping, payment and frontend), so adding a service is one more entry in a map.
 
 Used by [roboshop-infra-dev](https://github.com/prudhvisaikoppaka/roboshop-infra-dev) in the `80-user` and `90-components` stacks.
 
